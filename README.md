@@ -38,7 +38,7 @@ And light:
 
 
 ```python
-pip install qt-material
+pip install -e git+https://github.com/ShiroCreator01/qt-material.git@master#egg=qt-material
 ```
 
 ## Usage
@@ -227,7 +227,7 @@ A window with almost all widgets (see the previous screenshots) are available to
 
 
 ```python
-git clone https://github.com/UN-GCPDS/qt-material.git
+git clone https://github.com/ShiroCreator01/qt-material
 cd qt-material
 python setup.py install
 cd examples/full_features
@@ -294,7 +294,7 @@ class RuntimeStylesheets(QMainWindow, QtStyleTools):
 
 ![dock](https://github.com/UN-GCPDS/qt-material/raw/master/docs/source/notebooks/_images/runtime_dock.gif)
 
-A full set of examples are available in the [exmaples directory](https://github.com/UN-GCPDS/qt-material/blob/master/examples/runtime/)
+A full set of examples are available in the [examples directory](https://github.com/UN-GCPDS/qt-material/blob/master/examples/runtime/)
 
 ## Export theme
 
